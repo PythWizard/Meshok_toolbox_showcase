@@ -144,7 +144,7 @@ Communication Workflow
 
 ## Screenshots
 
-<p align="center"> <img width="850" alt="Meshok Toolbox Screenshot" src="https://github.com/user-attachments/assets/36c7b8b1-6511-43f1-9402-6608be82314c"> </p> <p align="center"> <img width="700" alt="Analytics Module Screenshot" src="https://github.com/user-attachments/assets/4ef6974c-e89e-4e0d-94ae-e3b9ab7e6dcb"> </p>
+<p align="center"> <img width="850" alt="Meshok Toolbox Screenshot" src="https://github.com/user-attachments/assets/36c7b8b1-6511-43f1-9402-6608be82314c"> </p> <p align="center"> <img width="700" alt="Analytics Module Screenshot" src="https://github.com/user-attachments/assets/77b98970-31a1-40df-b66a-7531d8a9b33d"> </p>
 
 ---
 
