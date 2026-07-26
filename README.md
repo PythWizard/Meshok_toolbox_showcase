@@ -143,17 +143,15 @@ Communication Workflow
 ```
 
 ## Screenshots
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/36c7b8b1-6511-43f1-9402-6608be82314c"
+       width="450"
+       alt="Meshok Toolbox Screenshot">
 
-<table>
-<tr>
-<td width="50%">
-<img src="https://github.com/user-attachments/assets/36c7b8b1-6511-43f1-9402-6608be82314c" alt="Meshok Toolbox Screenshot">
-</td>
-<td width="50%">
-<img src="https://github.com/user-attachments/assets/77b98970-31a1-40df-b66a-7531d8a9b33d" alt="Analytics Module Screenshot">
-</td>
-</tr>
-</table>
+  <img src="https://github.com/user-attachments/assets/77b98970-31a1-40df-b66a-7531d8a9b33d"
+       width="350"
+       alt="Analytics Module Screenshot">
+</p>
 ---
 
 ## Project Goals
