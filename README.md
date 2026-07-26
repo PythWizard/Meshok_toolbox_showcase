@@ -143,14 +143,17 @@ Communication Workflow
 ```
 
 ## Screenshots
+
 <p align="center">
   <img src="https://github.com/user-attachments/assets/36c7b8b1-6511-43f1-9402-6608be82314c"
-       width="450"
-       alt="Meshok Toolbox Screenshot">
+       width="850"
+       alt="Meshok Toolbox Main Interface">
+</p>
 
+<p align="center">
   <img src="https://github.com/user-attachments/assets/77b98970-31a1-40df-b66a-7531d8a9b33d"
-       width="350"
-       alt="Analytics Module Screenshot">
+       width="600"
+       alt="Analytics Module">
 </p>
 ---
 
