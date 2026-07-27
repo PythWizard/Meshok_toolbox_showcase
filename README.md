@@ -1,94 +1,90 @@
 # Meshok Toolbox
 
-Desktop automation application for marketplace data analysis, user discovery, filtering and communication workflows.
+A **showcase version** of a desktop application for marketplace data collection, analysis, filtering, and workflow automation.
+
+> **Portfolio Showcase**
+>
+> This repository contains a simplified version of the original application and is intended to demonstrate the overall architecture, implementation approach, and automation techniques.
+>
+> The complete production version is maintained in a **private repository** because it contains proprietary business logic, production workflows, and marketplace-specific implementation details.
 
 ---
 
 ## Overview
 
-**Meshok Toolbox** is a Python desktop application designed to automate marketplace research and workflow management.
+Meshok Toolbox is a Python desktop application designed to automate marketplace research and communication workflows.
 
-The application integrates with the Meshok API, collects marketplace data, applies configurable filtering rules, stores results locally, provides analytical tools, and supports automated communication workflows.
+The application integrates with the marketplace API, collects structured data, applies configurable filtering rules, stores results locally, provides analytical tools, and supports automated communication processes.
 
-The project demonstrates:
-
-- asynchronous API communication
-- desktop application development
-- data processing and analysis
-- automation workflows
-- browser session integration
+The project demonstrates practical implementation of asynchronous programming, desktop application development, API integration, workflow automation, and local data analysis.
 
 ---
 
-## Features
+## Key Features
 
-## 🔎 Marketplace Data Scanner
+### 🔎 Marketplace Data Collection
 
-- ⚡ Asynchronous API processing using `asyncio` and `aiohttp`
-- 🖥️ Desktop interface built with Tkinter
-- 🧵 Multi-threaded application architecture
-- 🔍 Configurable filtering system:
-    - User identifiers
-    - Activity metrics
-    - Registration period
-    - Marketplace statistics
-    - Review indicators
-- 🔄 Automatic request retry handling
-- ⏱️ Request throttling and delay management
-- 💾 Local dataset storage
-- ⚙️ Persistent configuration management
-- 📋 Real-time operation logging
+- Asynchronous API communication using `asyncio` and `aiohttp`
+- Configurable data collection workflows
+- Automatic request retry handling
+- Request throttling and delay management
+- Persistent local dataset storage
+- Configurable filtering rules
+- Real-time operation logging
 
+Supported filtering includes:
 
----
-
-## 📊 Analytics Module
-
-Built-in tools for analyzing collected marketplace datasets.
-
-Capabilities:
-
-- 👥 User statistics overview
-- 🌍 Geographic distribution analysis
-- 🏙️ Location-based reports
-- 📅 Registration activity analysis
-- 📈 Review and activity statistics
-- 📊 JSON dataset processing
-
+- User identifiers
+- Marketplace activity metrics
+- Registration period
+- Review statistics
+- Marketplace-specific indicators
 
 ---
 
-## ✉️ Communication Workflow
+### 📊 Analytics Module
 
-Automation module for managing marketplace communication workflows.
+Built-in analytical tools for processing collected marketplace data.
 
-Features:
+Features include:
 
-- 🔐 Browser session integration
-- 🍪 Secure cookie synchronization
-- 👤 Personalized message generation
-- ⏱️ Configurable sending parameters
-- 🔄 Delivery status tracking
-
-
----
-
-## Technologies
-
-- Python 3.x
-- Tkinter
-- asyncio
-- aiohttp
-- threading
-- HTTP API integration
-- JSON data storage
-- Local HTTP server
-- Browser extension integration
-
+- User statistics
+- Geographic distribution analysis
+- Location-based reports
+- Registration activity trends
+- Review and activity metrics
+- JSON dataset processing
 
 ---
 
-## Architecture
+### ✉️ Communication Workflow
+
+Automation module for marketplace messaging and communication.
+
+Capabilities include:
+
+- Browser session integration
+- Secure cookie synchronization
+- Personalized message generation
+- Configurable sending parameters
+- Delivery status tracking
+
+---
+
+### 🖥️ Desktop Application
+
+The application provides a responsive desktop interface built with Tkinter, featuring:
+
+- Background processing
+- Multi-threaded architecture
+- Persistent configuration management
+- Live progress monitoring
+- Dataset management
+- Integrated analytics
+
+---
+
+## System Architecture
 
 ```text
                   Browser Extension
@@ -100,47 +96,66 @@ Features:
                 Session Management
                           │
                           ▼
-                 Meshok Toolbox
+                  Marketplace API
                           │
-       ┌──────────────────┼──────────────────┐
-       │                  │                  │
-       ▼                  ▼                  ▼
-
- API Integration    Analytics Engine   Communication
-       │                  │                  │
-       ▼                  ▼                  ▼
-
- Marketplace Data   Reports & Metrics   Workflow Automation
+                          ▼
+                Data Collection Layer
+                          │
+                          ▼
+                  Filtering Engine
+                          │
+                          ▼
+                  Local Data Storage
+                          │
+          ┌───────────────┴───────────────┐
+          ▼                               ▼
+    Analytics Module             Communication Module
+          │                               │
+          ▼                               ▼
+ Reports & Statistics          Workflow Automation
 ```
+
 ---
 
-## Architecture
+## Technologies
 
-```text
-Workflow
-Marketplace API
-       │
-       ▼
-Data Collection Layer
-       │
-       ▼
-Filtering Engine
-       │
-       ▼
-Local Dataset
-       │
-       ├───────────────┐
-       │               │
-       ▼               ▼
+- Python
+- Tkinter
+- asyncio
+- aiohttp
+- threading
+- HTTP API integration
+- JSON data storage
+- Local HTTP server
+- Browser extension integration
 
- Desktop GUI      Analytics Module
-
-       │
-       ▼
-
-Communication Workflow
 ---
-```
+
+## Repository Scope
+
+This repository contains only the core components required to demonstrate the project's architecture and implementation.
+
+The complete private version additionally includes:
+
+- production workflow automation
+- advanced filtering logic
+- extended analytics
+- optimized communication workflows
+- additional utility modules
+- project-specific automation tools
+
+---
+
+## Example Applications
+
+- Marketplace research
+- User discovery and analysis
+- Dataset collection
+- Marketplace analytics
+- Workflow automation
+- Communication management
+
+---
 
 ## Screenshots
 
@@ -155,12 +170,11 @@ Communication Workflow
        width="600"
        alt="Analytics Module">
 </p>
+
 ---
 
-## Project Goals
+## Disclaimer
 
-Demonstrate Python desktop application development
-Build asynchronous API-based automation tools
-Process and analyze marketplace datasets
-Create configurable workflow automation
-Integrate desktop applications with browser sessions
+This repository is provided as part of my software development portfolio.
+
+Some implementation details have been intentionally simplified or omitted, while the complete production version remains private.
