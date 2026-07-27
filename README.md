@@ -160,7 +160,7 @@ The complete private version additionally includes:
 ## Screenshots
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/36c7b8b1-6511-43f1-9402-6608be82314c"
+  <img src="https://github.com/user-attachments/assets/82d848b6-9037-4a37-98c9-9e1a1bb03716"
        width="850"
        alt="Meshok Toolbox Main Interface">
 </p>
